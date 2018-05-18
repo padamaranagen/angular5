@@ -4,14 +4,16 @@ Angular Basics
 ### Introduction
 
 So now we get started with discourse and with angular and our project we're going to use and ofcourse  it's time to dive deeper into angular to understand what really does?  
+
 * what happens behind the scenes? 
 * How an angular gets  started in the first place and which base building blocks it offers us? 
 * How we can build angular apps and which features we may use for this.
+ 
 By the end of this section you will understand how can build your basic angular application? What it then does and what you need to change to reach a different result.	So with this let's dive into it and let's start by having a look what actually happens when we with
 
 ### How an Angular App gets Loaded and Started
 
-Angular is a framework which allows you to create single page application.This is the single page which has served the *index.html* file.
+Angular is a framework which allows you to create reactive single page application.This is the single page which has served the *index.html* file.
 The body of the file contains app root thing with a Loading... in between. Now clearly we don't see it Loading... here. All the files in the app folder which have component in their name. So these files are related to this component.
 #### app.component.ts
 Here you can see that we have to at component decorator does seems to be important but more importantly right now you'll see that there we have this **selector** is a property which assigns a string as a value and does string holds *app-root* it is clearly says the same text as in our *index.html* file
@@ -107,5 +109,5 @@ app
     server.component.html    
 ```
 
-With these we created our new component called server.  
+With these we created our new component called server.   
 
